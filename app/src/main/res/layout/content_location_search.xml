@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LocationSearchActivity"
+    tools:showIn="@layout/activity_location_search">
+
+    <TextView
+        android:id="@+id/sourceLocation"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        android:drawableEnd="@drawable/ic_near_me_black_24dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/origin"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locInfo"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/destLocation"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        android:drawableEnd="@drawable/ic_near_me_black_24dp"
+        android:gravity="center"
+        android:hint="@string/destination"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sourceLocation" />
+
+
+    <TextView
+        android:id="@+id/calcSearchDate"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        android:drawableEnd="@drawable/ic_expand_more_black_24dp"
+        android:gravity="center"
+        android:hint="@string/dateSearch"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintLeft_toLeftOf="@+id/sourceLocation"
+        app:layout_constraintRight_toRightOf="@+id/sourceLocation"
+        app:layout_constraintTop_toBottomOf="@+id/calcDateLabel" />
+
+
+    <TextView
+        android:id="@+id/locInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/locInfo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/calcDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/calcDate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/destLocation" />
+
+</android.support.constraint.ConstraintLayout>

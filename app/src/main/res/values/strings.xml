@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">GeoCalculator</string>
+    <string name="latitude_p1">Enter latitude for p1</string>
+    <string name="latitude_p2">Enter latitude for p2</string>
+    <string name="longitude_p1">Enter longitude for p1</string>
+    <string name="longitude_p2">Enter longitude for p2</string>
+    <string name="calculate">Calculate</string>
+    <string name="enterValues">Values missing from the fields!</string>
+    <string name="cannotSave">Enter values to change the units.</string>
+    <string name="clear">Clear</string>
+    <string name="distance">Distance:</string>
+    <string name="bearing">Bearing:</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">MySettingsActivity</string>
+    <string name="distunits">Distance Units</string>
+    <string name="bearunits">Bearing Units</string>
+    <string name="origin">Origination</string>
+    <string name="destination">Destination</string>
+    <string name="date">Date of Calculation</string>
+    <string name="imageView">Placeholder</string>
+    <string name="locInfo">Location Information</string>
+    <string name="calcDate">Calculation Date</string>
+    <string name="dateSearch">Date</string>
+    <string name="tired">Tired of typing?</string>
+    <string name="search">SEARCH</string>
+    <string name="image">Image</string>
+    <string name="temperature">Temperature</string>
+    <string name="forecast">Forecast</string>
+
+    <string-array name="distSpinner">
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
+    <string-array name="bearSpinner">
+        <item>Degrees</item>
+        <item>Mils</item>
+    </string-array>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_location_search">LocationSearchActivity</string>
+</resources>

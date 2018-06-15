@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "491192893707",
+    "firebase_url": "https://cis-657.firebaseio.com",
+    "project_id": "cis-657",
+    "storage_bucket": "cis-657.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491192893707:android:6bb0c558001d049b",
+        "android_client_info": {
+          "package_name": "com.curiosity.jidnyasa.geocalc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491192893707-jgd1jfs0j4i4460t9c8uooslgftqth34.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "491192893707-jgd1jfs0j4i4460t9c8uooslgftqth34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8HQlTroN3M5-z8PePp2ioYeOItIG2MZc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
